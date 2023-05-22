@@ -1,0 +1,47 @@
+@import url('https://fonts.cdnfonts.com/css/gagalin');
+.gradient-background {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+#title-name{
+    font-family: 'Gagalin', sans-serif;
+    font-size: 24px
+}
+
+#title{
+    height: 68.8vh;
+
+    padding-top: 200px;
+}
+
+.top-camera {
+    position: absolute;
+    right: 300px;
+    top: 140px;
+}
+.top-plane{
+    position: absolute;
+    right: 700px;
+    top: 140px;
+}
+
+.my-skills{
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+}
