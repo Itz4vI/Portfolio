@@ -33,11 +33,14 @@
     position: absolute;
     right: 300px;
     top: 140px;
+    overflow-clip-margin: content-box;
+    overflow: clip;
 }
 .top-plane{
     position: absolute;
     right: 700px;
     top: 140px;
+
 }
 
 .my-skills{
