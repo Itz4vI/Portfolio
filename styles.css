@@ -25,7 +25,6 @@
 
 #title{
     height: 68.8vh;
-
     padding-top: 200px;
 }
 
@@ -53,4 +52,9 @@
 
 .socio-img{
     justify-content: center;
+}
+
+.profile-img{
+    border-radius: 50%;
+    height: 30vh;
 }
